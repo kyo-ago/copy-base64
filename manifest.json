@@ -1,0 +1,20 @@
+{
+	"name": "copy-base64",
+	"version": "0.0.1",
+	"manifest_version": 2,
+	"icons": {
+		"16": "logo.png",
+		"128": "logo.png"
+	},
+	"background" : {
+		"persistent": false,
+		"scripts": [
+			"/src/background.js"
+		]
+	},
+	"permissions": [
+		"<all_urls>",
+		"contextMenus",
+		"clipboardWrite"
+	]
+}
